@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(243, 225, 197);
+}
+
+.title {
+  text-align: center;
+  background-color: tomato;
+  background-size: 50px 50px;
+}
+
+.categories {
+  font-size: smaller;
+  background-color: antiquewhite;
+}
+
+input::placeholder {
+  color: goldenrod;
+}
+
+label {
+  width: 55px;
+  display: inline-block;
+}
+
+.submit-wrapper {
+  display: flex;
+  justify-content: right;
+}
+
+.button:hover {
+  background-color: tomato;
+}
+
+.pop-up {
+  width: 350px;
+  height: 200px;
+  padding: 50px;
+  background-color: aliceblue;
+}
